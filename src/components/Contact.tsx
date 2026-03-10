@@ -28,8 +28,9 @@ export default function Contact() {
           </h2>
           <p>
             Whether you have a query, need a consultation, or want to discuss
-            how D N Panchasara &amp; Company can serve you, we'd love to hear
-            from you.
+            how{" "}
+            <span className="company-name">D N Panchasara &amp; Company</span>{" "}
+            can serve you, we'd love to hear from you.
           </p>
           <div className="contact-details">
             <div className="contact-detail">

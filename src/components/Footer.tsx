@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="footer-top">
         <div className="footer-brand">
           <div className="logo">
-            D <span>N</span> Panchasara <span>&</span> Company
+            <span className="company-name">D N Panchasara &amp; Company</span>
           </div>
           <p>
             A Chartered Accountancy firm dedicated to delivering precise,
@@ -74,8 +74,9 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <p>
-          © 2025 D N Panchasara &amp; Company. All rights reserved. · Chartered
-          Accountants, India
+          © 2025{" "}
+          <span className="company-name">D N Panchasara &amp; Company</span>.
+          All rights reserved. · Chartered Accountants, India
         </p>
         <div className="icai-badge">✦ ICAI Registered Firm</div>
       </div>

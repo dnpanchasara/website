@@ -33,7 +33,7 @@ export default function WhyUs() {
       <div style={{ position: "relative", zIndex: 2 }}>
         <div className="section-label">Why Choose Us</div>
         <h2 className="section-heading">
-          The <em>D N Panchasara</em> Difference
+          The <span className="company-name">D N Panchasara</span> Difference
         </h2>
         <div className="why-grid">
           {whyUsItems.map((item, index) => (

@@ -14,10 +14,11 @@ export default function About() {
             A Name You Can <em>Trust</em>
           </h2>
           <p>
-            D N Panchasara &amp; Company is a distinguished Chartered
-            Accountancy firm committed to delivering precise, reliable, and
-            comprehensive financial services. We combine deep domain expertise
-            with a client-first approach that goes beyond numbers.
+            <span className="company-name">D N Panchasara &amp; Company</span>{" "}
+            is a distinguished Chartered Accountancy firm committed to
+            delivering precise, reliable, and comprehensive financial services.
+            We combine deep domain expertise with a client-first approach that
+            goes beyond numbers.
           </p>
           <p>
             Our firm was founded on three enduring principles —{" "}
@@ -59,7 +60,10 @@ export default function About() {
               <div className="profile-avatar">DP</div>
               <div className="profile-name">CA Darshan Gajjar</div>
               <div className="profile-title">
-                Founder &amp; Principal — D N Panchasara &amp; Company
+                Founder &amp; Principal —{" "}
+                <span className="company-name">
+                  D N Panchasara &amp; Company
+                </span>
               </div>
             </div>
             <div className="profile-body">
@@ -74,7 +78,9 @@ export default function About() {
                 <div className="detail-icon">🏢</div>
                 <div className="detail-text">
                   <label>Firm</label>
-                  <span>D N Panchasara &amp; Company</span>
+                  <span className="company-name">
+                    D N Panchasara &amp; Company
+                  </span>
                 </div>
               </div>
               <div className="profile-detail">

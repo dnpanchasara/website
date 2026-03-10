@@ -9,7 +9,8 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-badge">Chartered Accountants · India 🇮🇳</div>
         <div className="hero-firm-name">
-          <span className="dn">D N</span> Panchasara
+          <span className="dn">D N</span>{" "}
+          <span className="company-name">Panchasara</span>
           <br />
           <span className="co">&amp; Company</span>
         </div>
@@ -18,10 +19,10 @@ export default function Hero() {
         </p>
         <p className="hero-tagline">Where numbers meet integrity</p>
         <p className="hero-desc">
-          D N Panchasara &amp; Company is a professional Chartered Accountancy
-          firm built on the principles of Trust, Honesty, and Respect —
-          delivering expert financial, taxation, and audit services to
-          businesses and individuals across India.
+          <span className="company-name">D N Panchasara &amp; Company</span> is
+          a professional Chartered Accountancy firm built on the principles of
+          Trust, Honesty, and Respect — delivering expert financial, taxation,
+          and audit services to businesses and individuals across India.
         </p>
         <div className="hero-actions">
           <Link href="#services" className="btn-primary">

@@ -12,6 +12,17 @@
   --border: rgba(201, 168, 76, 0.2);
 }
 
+.company-name {
+  color: var(--gold);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: color 0.3s ease;
+}
+
+.company-name:hover {
+  color: var(--gold-light);
+}
+
 * {
   margin: 0;
   padding: 0;
