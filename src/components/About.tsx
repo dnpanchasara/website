@@ -17,17 +17,34 @@ export default function About() {
             <span className="company-name">D N Panchasara &amp; Company</span>{" "}
             is a distinguished Chartered Accountancy firm committed to
             delivering precise, reliable, and comprehensive financial services.
-            We combine deep domain expertise with a client-first approach that
-            goes beyond numbers.
+            Founded with a vision to simplify complex financial landscapes, we
+            combine deep domain expertise with a client-first approach that goes
+            beyond numbers.
           </p>
           <p>
-            Our firm was founded on three enduring principles —{" "}
+            Our firm stands on the bedrock of three enduring principles —{" "}
             <strong>Trust, Honesty, and Respect</strong> — which remain the
-            bedrock of every client engagement. Whether you're a growing
-            startup, an established enterprise, or an individual navigating
-            complex tax obligations, we bring clarity and confidence to your
+            foundation of every engagement. Whether you're a budding startup, an
+            established SME, or an individual navigating complex tax
+            obligations, we bring clarity, compliance, and confidence to your
             financial journey.
           </p>
+          <div className="about-vision-mission">
+            <div className="vm-item">
+              <h4>Our Vision</h4>
+              <p>
+                To be the most trusted financial partner for businesses, known
+                for integrity and excellence in professional services.
+              </p>
+            </div>
+            <div className="vm-item">
+              <h4>Our Mission</h4>
+              <p>
+                To provide high-quality taxation, audit, and advisory services
+                that empower our clients to achieve sustainable growth.
+              </p>
+            </div>
+          </div>
           <div className="about-values">
             <div className="value-card">
               <div className="value-icon">🤝</div>
@@ -97,36 +114,6 @@ export default function About() {
                   <span>
                     "Trust, Honesty, Respect — needed to keep life moving
                     forward"
-                  </span>
-                </div>
-              </div>
-              <div className="profile-detail">
-                <div className="detail-icon">🔗</div>
-                <div className="detail-text">
-                  <label>LinkedIn</label>
-                  <span>
-                    <a
-                      href="https://www.linkedin.com/in/darshan-panchasara5/"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      linkedin.com/in/darshan-panchasara5
-                    </a>
-                  </span>
-                </div>
-              </div>
-              <div className="profile-detail">
-                <div className="detail-icon">📸</div>
-                <div className="detail-text">
-                  <label>Instagram</label>
-                  <span>
-                    <a
-                      href="https://www.instagram.com/ca_darshxnp/"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      @ca_darshxnp
-                    </a>
                   </span>
                 </div>
               </div>

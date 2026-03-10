@@ -14,15 +14,21 @@ export default function Hero() {
           <br />
           <span className="co">&amp; Company</span>
         </div>
+        <div className="hero-trust-badges">
+          <span>✔ 10+ Years Experience</span>
+          <span>✔ 500+ Clients Served</span>
+          <span>✔ ICAI Certified</span>
+        </div>
         <p className="hero-sub">
-          <em>Trusted</em> Financial Guidance. Always.
+          <em>Trusted</em> Chartered Accountant Services. Always.
         </p>
-        <p className="hero-tagline">Where numbers meet integrity</p>
+        <p className="hero-tagline">Excellence in Taxation, Audit & Advisory</p>
         <p className="hero-desc">
           <span className="company-name">D N Panchasara &amp; Company</span> is
-          a professional Chartered Accountancy firm built on the principles of
-          Trust, Honesty, and Respect — delivering expert financial, taxation,
-          and audit services to businesses and individuals across India.
+          a premier Chartered Accountancy firm built on the bedrock of Trust,
+          Honesty, and Respect. We provide comprehensive financial solutions,
+          from strategic tax planning and rigorous audits to seamless business
+          incorporation, empowering startups and enterprises across India.
         </p>
         <div className="hero-actions">
           <Link href="#services" className="btn-primary">
