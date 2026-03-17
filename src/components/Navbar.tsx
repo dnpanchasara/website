@@ -1,25 +1,37 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
   return (
-    <nav>
+    <nav className={isOpen ? "nav-open" : ""}>
       <div className="nav-logo">
         D <span>N</span> Panchasara <span>&</span> Company
       </div>
-      <ul className="nav-links">
+
+      <button className="mobile-toggle" onClick={toggleMenu} aria-label="Toggle Menu">
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </button>
+
+      <ul className={`nav-links ${isOpen ? "active" : ""}`}>
         <li>
-          <Link href="#about">About</Link>
+          <Link href="#about" onClick={() => setIsOpen(false)}>About</Link>
         </li>
         <li>
-          <Link href="#services">Services</Link>
+          <Link href="#services" onClick={() => setIsOpen(false)}>Services</Link>
         </li>
         <li>
-          <Link href="#why-us">Why Us</Link>
+          <Link href="#why-us" onClick={() => setIsOpen(false)}>Why Us</Link>
         </li>
         <li>
-          <Link href="#contact" className="nav-cta">
+          <Link href="#contact" className="nav-cta" onClick={() => setIsOpen(false)}>
             Contact Us
           </Link>
         </li>

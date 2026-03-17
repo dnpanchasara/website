@@ -15,8 +15,8 @@ export default function Hero() {
           <span className="co">&amp; Company</span>
         </div>
         <div className="hero-trust-badges">
-          <span>✔ 10+ Years Experience</span>
-          <span>✔ 500+ Clients Served</span>
+          <span>✔ 4+ Years Experience</span>
+          <span>✔ 30+ Clients Served</span>
           <span>✔ ICAI Certified</span>
         </div>
         <p className="hero-sub">

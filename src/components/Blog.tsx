@@ -42,12 +42,8 @@ export default function Blog() {
             <div className="blog-date">{post.date}</div>
             <h3>{post.title}</h3>
             <p>{post.excerpt}</p>
-            <button className="read-more">Read More →</button>
           </div>
         ))}
-      </div>
-      <div className="blog-cta reveal">
-        <button className="btn-outline">View All Articles</button>
       </div>
     </section>
   );
