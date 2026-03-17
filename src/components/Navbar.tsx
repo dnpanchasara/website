@@ -14,7 +14,11 @@ export default function Navbar() {
         D <span>N</span> Panchasara <span>&</span> Company
       </div>
 
-      <button className="mobile-toggle" onClick={toggleMenu} aria-label="Toggle Menu">
+      <button
+        className="mobile-toggle"
+        onClick={toggleMenu}
+        aria-label="Toggle Menu"
+      >
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
@@ -22,16 +26,17 @@ export default function Navbar() {
 
       <ul className={`nav-links ${isOpen ? "active" : ""}`}>
         <li>
-          <Link href="#about" onClick={() => setIsOpen(false)}>About</Link>
+          <Link href="#about" onClick={() => setIsOpen(false)}>
+            About
+          </Link>
         </li>
         <li>
-          <Link href="#services" onClick={() => setIsOpen(false)}>Services</Link>
+          <Link href="#services" onClick={() => setIsOpen(false)}>
+            Services
+          </Link>
         </li>
         <li>
-          <Link href="#why-us" onClick={() => setIsOpen(false)}>Why Us</Link>
-        </li>
-        <li>
-          <Link href="#contact" className="nav-cta" onClick={() => setIsOpen(false)}>
+          <Link href="#contact" onClick={() => setIsOpen(false)}>
             Contact Us
           </Link>
         </li>

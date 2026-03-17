@@ -33,7 +33,7 @@ export default function Profile() {
   const containerRef = useReveal();
 
   return (
-    <section className="profile-section" id="profile" ref={containerRef as any}>
+    <section className="contact" id="contact" ref={containerRef as any}>
       <div className="profile-merged-inner reveal">
         {/* ── Profile Card ── */}
         <div className="profile-card">
