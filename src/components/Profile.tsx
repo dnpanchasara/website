@@ -39,12 +39,10 @@ export default function Profile() {
         <div className="profile-card">
           <div className="profile-card-header">
             <div className="profile-avatar">DP</div>
-            <div className="profile-name">CA Darshan Gajjar</div>
+            <div className="profile-name">CA Darshan Panchasara (GAJJAR)</div>
             <div className="profile-title">
               Founder &amp; Principal —{" "}
-              <span className="company-name">
-                D N Panchasara &amp; Company
-              </span>
+              <span className="company-name">D N Panchasara &amp; Company</span>
             </div>
           </div>
           <div className="profile-body">
@@ -85,7 +83,10 @@ export default function Profile() {
 
         {/* ── Contact Details ── */}
         <div className="profile-contact-panel">
-          <span className="section-label" style={{ color: "var(--navy)", marginBottom: "0.75rem" }}>
+          <span
+            className="section-label"
+            style={{ color: "var(--navy)", marginBottom: "0.75rem" }}
+          >
             Get In Touch
           </span>
           <h2 className="profile-contact-heading">
@@ -101,7 +102,11 @@ export default function Profile() {
                 key={item.label}
                 href={item.href}
                 target={item.href.startsWith("http") ? "_blank" : undefined}
-                rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                rel={
+                  item.href.startsWith("http")
+                    ? "noopener noreferrer"
+                    : undefined
+                }
                 className="cd-card cd-card--light"
               >
                 <div className="cd-icon cd-icon--light">{item.icon}</div>
